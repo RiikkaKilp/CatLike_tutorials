@@ -135,8 +135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38775e8073954674ebdb1301b26be0bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  p0: {x: 10.94, y: 0, z: 0}
-  p1: {x: 13.23, y: 0, z: 3}
+  p0: {x: -5, y: 0, z: 0}
+  p1: {x: 10, y: 0, z: -4.040209}
 --- !u!4 &1284604299
 Transform:
   m_ObjectHideFlags: 0
@@ -148,7 +148,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352659480
 GameObject:
@@ -304,15 +304,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1919097177
+--- !u!1 &1950382411
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1919097179}
-  - component: {fileID: 1919097178}
+  - component: {fileID: 1950382413}
+  - component: {fileID: 1950382412}
   m_Layer: 0
   m_Name: Curve
   m_TagString: Untagged
@@ -320,31 +320,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1919097178
+--- !u!114 &1950382412
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1919097177}
+  m_GameObject: {fileID: 1950382411}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10fabd1cfc60b67408a1fa522ee79ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: 1, y: 0, z: 0}
-  - {x: 2, y: 2, z: 0}
-  - {x: 3, y: 0, z: 0}
---- !u!4 &1919097179
+  - {x: 1, y: 0, z: -9}
+  - {x: 2.9940586, y: -2.6657329, z: -9.960135}
+  - {x: 2.3827877, y: -0.6954311, z: -7.9553847}
+--- !u!4 &1950382413
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1919097177}
+  m_GameObject: {fileID: 1950382411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
